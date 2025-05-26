@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-[#0f350f] text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between">
         {/* Logo + Title */}
-        <div className="flex items-center space-x-4 mb-4 md:mb-0">
+        <Link href="/" className="flex items-center space-x-4 mb-4 md:mb-0">
           <Image
             src="/logo.png"
             alt="Troop 711 Logo"
@@ -20,13 +20,14 @@ export default function Header() {
             <h1 className="text-xl font-bold leading-tight">TROOP 711</h1>
             <p className="text-sm text-green-200">Albion, Rhode Island</p>
           </div>
-        </div>
+        </Link>
 
         {/* Navigation */}
         <nav className="flex space-x-6 text-sm md:text-base">
           <Link href="#about" className="hover:text-green-300 transition">About</Link>
           <Link href="#contact" className="hover:text-green-300 transition">Contact</Link>
           <Link href="#faq" className="hover:text-green-300 transition">FAQ</Link>
+          <Link href="/eagles-nest" className="hover:text-green-300 transition">Eagles Nest</Link>
         </nav>
       </div>
     </header>
