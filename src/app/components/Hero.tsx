@@ -10,9 +10,9 @@ export default function Hero() {
         <h1 className="text-4xl font-bold">TROOP 711</h1>
         <p className="text-lg">Albion, Rhode Island</p>
         <p className="text-sm text-green-200">Leadership • Community Service • Character Building</p>
-        <a href="#contact" className="inline-block mt-4 bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded shadow transition transform hover:scale-105">
+        <Link href="#contact" className="inline-block mt-4 bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded shadow transition transform hover:scale-105">
         Join Today
-        </a>
+        </Link>
     </div>
 
     <div className="md:w-1/2 mt-8 md:mt-0">
