@@ -4,7 +4,7 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about" className="py-20 px-6 md:px-16 text-white">
-      <div className="max-w-4xl mx-auto bg-white text-gray-900 rounded-xl shadow-xl p-8 md:p-12">
+      <div className="bg-[#256d25] text-white border border-[#2f8f2f] rounded-xl p-6 shadow-lg">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-6 border-b border-gray-300 pb-2">
           About Troop 711
         </h2>

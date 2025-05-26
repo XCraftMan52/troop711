@@ -38,7 +38,7 @@ export default function Contact() {
   {contacts.map((contact, idx) => (
     <div
       key={idx}
-      className="bg-[#174a17] text-white p-6 rounded-xl shadow-md border border-[#1e5d1e] space-y-2"
+      className="bg-[#256d25] text-white border border-[#2f8f2f] rounded-xl p-6 shadow-lg space-y-2"
     >
       <h3 className="text-lg font-semibold">{contact.name}</h3>
       <p className="text-sm text-gray-300">{contact.role}</p>
