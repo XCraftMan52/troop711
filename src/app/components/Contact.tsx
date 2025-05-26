@@ -21,10 +21,10 @@ const contacts = [
     phone: '(774) 810-1738',
   },
   {
-    name: 'Charlie Malenfant',
-    role: 'Chartered Organization Representative',
-    email: 'chaz920@verizon.net',
-    phone: '(401) 477-6587',
+    name: 'Brian McMahon',
+    role: 'Organization Representative',
+    email: 'bfm711albion@gmail.com',
+    phone: '(401) 935-6239',
   },
 ];
 
