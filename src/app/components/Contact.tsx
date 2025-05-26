@@ -1,7 +1,67 @@
-import React from 'react'
+'use client';
+import React from 'react';
+
+const contacts = [
+  {
+    name: 'David Levesque',
+    role: 'T711B Scoutmaster',
+    email: '',
+    phone: '',
+  },
+  {
+    name: 'Catherine Duclos',
+    role: 'T711G Scoutmaster',
+    email: 'ctduclos@cox.net',
+    phone: '(617) 594-8207',
+  },
+  {
+    name: 'Michael Webber',
+    role: 'Committee Chair',
+    email: 'mwebber1@gmail.com',
+    phone: '(774) 810-1738',
+  },
+  {
+    name: 'Charlie Malenfant',
+    role: 'Chartered Organization Representative',
+    email: 'chaz920@verizon.net',
+    phone: '(401) 477-6587',
+  },
+];
 
 export default function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <section id="contact" className="text-white py-20 px-6 md:px-16">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">Contact Us</h2>
+
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 max-w-4xl mx-auto">
+  {contacts.map((contact, idx) => (
+    <div
+      key={idx}
+      className="bg-[#174a17] text-white p-6 rounded-xl shadow-md border border-[#1e5d1e] space-y-2"
+    >
+      <h3 className="text-lg font-semibold">{contact.name}</h3>
+      <p className="text-sm text-gray-300">{contact.role}</p>
+
+      <div className="text-sm text-gray-300 space-y-1 pt-2">
+        <div>
+          <span className="text-gray-400">Email:</span>{' '}
+          <a href={`mailto:${contact.email}`} className="text-blue-400 hover:underline">
+            {contact.email}
+          </a>
+        </div>
+        <div>
+          <span className="text-gray-400">Phone:</span>{' '}
+          <a href={`tel:${contact.phone}`} className="text-blue-400 hover:underline">
+            {contact.phone}
+          </a>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+      </div>
+    </section>
+  );
 }
