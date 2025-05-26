@@ -6,7 +6,7 @@ import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
-      <div className="space-y-12 p-6 max-w-5xl mx-auto">
+      <div className="space-y-12 max-w-5xl mx-auto ">
       <Hero />
       <About />
       <Contact />
