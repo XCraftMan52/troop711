@@ -41,18 +41,18 @@ export default function Contact() {
       className="bg-[#256d25] text-white border border-[#2f8f2f] rounded-xl p-6 shadow-lg space-y-2"
     >
       <h3 className="text-lg font-semibold">{contact.name}</h3>
-      <p className="text-sm text-gray-300">{contact.role}</p>
+      <p className="text-sm text-gray-100">{contact.role}</p>
 
       <div className="text-sm text-gray-300 space-y-1 pt-2">
         <div>
-          <span className="text-gray-400">Email:</span>{' '}
-          <a href={`mailto:${contact.email}`} className="text-blue-400 hover:underline">
+          {/* <span className="text-gray-400">Email:</span>{' '} */}
+          <a href={`mailto:${contact.email}`} className="text-yellow-300 hover:underline">
             {contact.email}
           </a>
         </div>
         <div>
-          <span className="text-gray-400">Phone:</span>{' '}
-          <a href={`tel:${contact.phone}`} className="text-blue-400 hover:underline">
+          {/* <span className="text-gray-400">Phone:</span>{' '} */}
+          <a href={`tel:${contact.phone}`} className="text-yellow-300 hover:underline">
             {contact.phone}
           </a>
         </div>
