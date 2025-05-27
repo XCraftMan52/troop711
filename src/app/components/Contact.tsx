@@ -18,7 +18,7 @@ const contacts = [
     name: 'Michael Webber',
     role: 'Committee Chair',
     email: 'mwebber1@gmail.com',
-    phone: '(774) 810-1738',
+    phone: '(774) 306-1326',
   },
   {
     name: 'Brian McMahon',

@@ -24,9 +24,9 @@ export default function Header() {
 
         {/* Navigation */}
         <nav className="flex space-x-6 text-sm md:text-base">
-          <Link href="#about" className="hover:text-green-300 transition">About</Link>
-          <Link href="#contact" className="hover:text-green-300 transition">Contact</Link>
-          <Link href="#faq" className="hover:text-green-300 transition">FAQ</Link>
+          <Link href="/#about" className="hover:text-green-300 transition">About</Link>
+          <Link href="/#contact" className="hover:text-green-300 transition">Contact</Link>
+          <Link href="/#faq" className="hover:text-green-300 transition">FAQ</Link>
           <Link href="/eagles-nest" className="hover:text-green-300 transition">Eagles Nest</Link>
         </nav>
       </div>
