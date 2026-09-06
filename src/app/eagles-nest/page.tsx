@@ -54,7 +54,13 @@ const eagleScouts = [
   { name: 'Carlos Pinto', date: '3/9/2024', id: '13407' },
   { name: 'John Chatty', date: '7/27/2024', id: '13483' },
   { name: 'Beckett Cournoyer', date: '7/27/2024', id: '13484' },
-  { name: 'Logan Laliberte', date: '2/1/2025', id: '13582' }
+  { name: 'Logan Laliberte', date: '2/1/2025', id: '13582' },
+  { name: 'Gabe Demers', date: '5/2/2026', id: '' },
+  { name: 'CJ Manion', date: '5/2/2026', id: '' },
+  { name: 'Nathan Webber', date: '8/1/2026', id: '' },
+  { name: 'Colby Brown', date: '8/1/2026', id: '' },
+  { name: 'Liam Carraher', date: '8/1/2026', id: '' },
+  { name: 'Andre DeVoto', date: '8/1/2026', id: '' },
 ];
 
 export default function EaglesNest() {
